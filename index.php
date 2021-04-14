@@ -7,7 +7,8 @@ require_once "Models/Model.php";
 require_once "Controllers/Controller.php";
 
 //Liste des contrôleurs
-$controllers = ["home", "projects","login","languages"];
+//un autre controleur est présent pour l'administrateur mais il n'est pas mis ici car confidentiel. 
+$controllers = ["home", "projects","languages"];
 //Nom du contrôleur par défaut
 $controller_default = "home";
 
