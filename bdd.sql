@@ -1,4 +1,4 @@
-<h3> Quelques tables de la base de donnée connectés à mon site. Il y en a en réalité beaucoup plus.</h3> 
+//Quelques tables de la base de donnée connectés à mon site. Il y en a en réalité beaucoup plus
 
 
 CREATE TABLE skill(
