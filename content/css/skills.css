@@ -1,0 +1,38 @@
+body {
+    background : url('/content/images/background/background2.jpg')no-repeat center center fixed;
+    background-size:cover;
+}
+
+.main{ 
+    width: 35%;
+    text-align: center;
+    margin: auto;
+}
+
+.main .skillPart {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    justify-content: center;
+
+}
+.main .skillPart > div {  margin: 0 20px; }
+.main .skillPart img { width: 100px;}
+.main .skillPart p { font-size: 30px;}
+
+
+.main h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 38px;
+    display: inline-block ; 
+    margin-top : 4%  ;         
+} 
+
+@media screen and (max-width: 900px){
+    .main { 
+        width: 80%!important;
+    }
+}

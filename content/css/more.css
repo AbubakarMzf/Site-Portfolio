@@ -1,0 +1,136 @@
+* {box-sizing:border-box}
+
+body {
+  background: url('/content/images/background/background1.jpg')  no-repeat center center fixed;
+  background-size:cover;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.mySlides .active, .mySlides .dot:hover{
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fadeSlide {
+  -webkit-animation-name: fadeSlide;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fadeSlide;
+  animation-duration: 1.5s;
+}
+
+#title h1, h2 {
+  text-align : center ;
+}
+
+#title {
+  padding : 30px ; 
+}
+
+#description, #language, #contributor{ 
+  width : 50% ; 
+  border-bottom :  solid 5px black ; 
+  margin: 0 auto ; 
+  padding :30px ;  
+}
+#contributor {
+  border-bottom : none ; 
+}
+
+h1, h2{
+  font-weight: 900;
+  font-size: 3rem ; 
+}
+
+p, li {
+  font-size : 2rem ; 
+}
+
+.imgText{
+  width : 55px ; 
+}
+
+li {
+  margin-top: 5px ;
+}
+
+li img {
+  margin-right: 5px;
+}
+
+@-webkit-keyframes fadeSlide {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fadeSlide {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+

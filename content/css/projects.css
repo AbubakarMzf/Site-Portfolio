@@ -1,0 +1,27 @@
+body {
+  background : url('/content/images/background/background1.jpg') no-repeat center center fixed;
+  background-size:cover;
+}
+.card {
+width : 400px ; 
+}
+.imgProj{
+width: 400px ; 
+height : 220px ; 
+}
+
+.flex {
+display : flex ; 
+justify-content : space-around ;
+flex-wrap: wrap;
+}
+.flex > .card {
+  margin : 10px ; 
+  min-width : calc(100% / 5 - 50px) ; 
+}
+
+@media screen and (max-width: 1280px) {
+      body {
+        font-size:2em
+      }
+  }
